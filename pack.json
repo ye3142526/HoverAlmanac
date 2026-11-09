@@ -1,0 +1,21 @@
+{
+  "uuid": "yufiee.hover-almanac",
+  "name": "悬停图鉴",
+  "version": "1.1.0",
+  "packFormatVersion": 1,
+  "apiVersion": 2,
+  "gameVersion": "0.16.15",
+  "gpNextVersion": ">=1.5.5",
+  "author": "yuFiee",
+  "description": "把鼠标移到植物或僵尸上并按住 Shift，即可就地查看该对象的图鉴；图鉴锁定后可滚轮翻看，内容跟随游戏语言。",
+  "capabilities": ["js"],
+  "js": {
+    "entry": "scripts/main.js",
+    "reloadable": true,
+    "requiresTrustedExecution": true,
+    "setupTimeoutMs": 15000,
+    "importTimeoutMs": 5000,
+    "cleanupTimeoutMs": 2000
+  },
+  "requiredGpNextFeatures": ["experimental.jsModding"]
+}
